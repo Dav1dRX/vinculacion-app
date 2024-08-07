@@ -1,0 +1,75 @@
+.landing-page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background: linear-gradient(135deg, #1e3c72 0%, #2a5298 100%);
+  color: rgb(255, 255, 255);
+  position: relative;
+  overflow: hidden;
+}
+body{
+  background-color: rgb(32, 31, 31);
+}
+
+h5{
+  color: white;
+  
+}
+
+.content {
+  text-align: center;
+  z-index: 10;
+  position: relative;
+}
+
+.logo {
+  width: 150px;
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 2rem;
+}
+
+
+.title {
+  font-size: 3rem !important;
+  margin-bottom: 1rem !important;
+}
+
+.subtitle {
+  font-size: 1.5rem !important;
+  margin-bottom: 2rem !important;
+}
+
+.enter-button {
+  font-size: 1.2rem !important;
+  padding: 0.5rem 2rem !important;
+}
+
+.animate-fade-left {
+  animation: fadeLeft 0.5s ease-out forwards;
+  opacity: 0;
+}
+
+@keyframes fadeLeft {
+  from {
+    opacity: 0;
+    transform: translateX(-20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+.exiting {
+  animation: exitAnimation 0.5s ease-in forwards;
+}
+
+@keyframes exitAnimation {
+  to {
+    opacity: 0;
+    transform: scale(0.9);
+  }
+}

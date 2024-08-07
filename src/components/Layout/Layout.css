@@ -1,0 +1,27 @@
+.layout {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+  }
+  
+  .app-bar {
+    background: linear-gradient(45deg, #0277bd 30%, #00bcd4 90%);
+  }
+  
+  .title {
+    flex-grow: 1;
+    cursor: pointer;
+  }
+  
+  .main-content {
+    flex-grow: 1;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  
+  .footer {
+    background-color: #01579b;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+  }

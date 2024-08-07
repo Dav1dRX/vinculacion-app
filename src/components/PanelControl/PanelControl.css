@@ -1,0 +1,29 @@
+/* src/pages/PanelControl/PanelControl.css */
+.panel-control-container {
+    padding: 40px 20px;
+  }
+  
+  .panel-title {
+    text-align: center;
+    margin-bottom: 40px;
+    color: #333;
+  }
+  
+  .option-card {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    transition: all 0.3s ease;
+    cursor: pointer;
+  }
+  
+  .option-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+  }
+  
+  .card-title {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
